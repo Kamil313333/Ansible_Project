@@ -1,0 +1,10 @@
+- hosts: serwerki
+  gather_facts: no
+  tasks:
+    - name: Test connectivity
+      ping:
+      register: ping_result
+
+    - name: Pokaż wynik
+      debug:
+       var: ping_result
