@@ -1,0 +1,25 @@
+---
+- name: Provision new VM on Proxmox
+  hosts: local
+  connection: local
+  gather_facts: false
+  vars_files:
+    - ../group_vars/all.yml 
+  tasks:
+    - name: Clone from template
+      community.general.proxmox_kvm:
+        api_host: "{{ proxmox_host }}"
+        api_user: "{{ proxmox_user }}"
+        api_token_id: "{{ proxmox_token_name }}"
+        api_token_secret: "{{ proxmox_token_secret }}"
+        node: "Lab"
+        clone: "AnsibleTemplate"
+        vmid: 110
+        name: "test-vm"
+        storage: "local-lvm"
+        cores: 2
+        memory: 2048
+        net:
+          net0: "virtio,bridge=vmbr0"
+        state: present
+
