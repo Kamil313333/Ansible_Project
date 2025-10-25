@@ -19,29 +19,33 @@ The goal of this project is to build an **automated server provisioning and moni
 🚀 How It Works
 
 1. Template Preparation:
-  A base Ubuntu VM is configured and converted into a reusable Proxmox template with cloud-init enabled.
+   
+    A base Ubuntu VM is configured and converted into a reusable Proxmox template with cloud-init enabled.
 
-2. Automatic Provisioning:
-  Running:
-  
-  `ansible-playbook playbooks/new_machine.yml`
-  
-  
-  → clones the template and creates a new VM on Proxmox automatically.
+3. Automatic Provisioning:
+   
+    Running:
+    
+    `ansible-playbook playbooks/new_machine.yml`
+    
+    
+    → clones the template and creates a new VM on Proxmox automatically.
 
 3. Monitoring Setup:
-  Once the VM is created, Ansible:
-  
-  installs the Zabbix Agent on the target VM,
-  
-  connects it to your Zabbix Server,
-  
-  ensures the agent runs automatically.
+   
+    Once the VM is created, Ansible:
+    
+    installs the Zabbix Agent on the target VM,
+    
+    connects it to your Zabbix Server,
+    
+    ensures the agent runs automatically.
 
 4. Validation:
-  Connectivity and agent status can be tested via:
-  
-  `ansible-playbook playbooks/ping.yml`
+   
+    Connectivity and agent status can be tested via:
+    
+    `ansible-playbook playbooks/ping.yml`
 
 🧠 Technologies Used
 | Tool              | Purpose                      |
