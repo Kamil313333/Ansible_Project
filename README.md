@@ -62,10 +62,10 @@ The goal of this project is to build an **automated server provisioning and moni
 <img width="340" height="268" alt="image" src="https://github.com/user-attachments/assets/b5c4ac66-7c3d-4856-bbad-9b2f53a4f221" />
 
 
-<img width="340" height="268" alt="image" src="https://github.com/user-attachments/assets/712b85df-c537-4ddb-bf23-7e1df53bccda" />
+<img width="730" height="351" alt="image" src="https://github.com/user-attachments/assets/712b85df-c537-4ddb-bf23-7e1df53bccda" />
 
 
-<img width="340" height="268" alt="image" src="https://github.com/user-attachments/assets/5a373944-1831-4f9b-b19e-e619dccbbea4" />
+<img width="730" height="351" alt="image" src="https://github.com/user-attachments/assets/5a373944-1831-4f9b-b19e-e619dccbbea4" />
 
 
 🔮 Future Improvements
