@@ -1,0 +1,5 @@
+- name: Configure and connect Zabbix Agent
+  hosts: serwerki
+  become: true
+  roles:
+    - zabbix_agent

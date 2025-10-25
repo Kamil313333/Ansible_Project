@@ -1,4 +1,4 @@
-zabbix_server_ip: "192.168.1.114"
+zabbix_server_ip: "172.16.71.62"
 
 proxmox_host: "172.16.71.1"
 proxmox_user: "ansible@pve"

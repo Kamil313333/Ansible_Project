@@ -1,0 +1,7 @@
+Server={{ zabbix_server_ip }}
+ServerActive={{ zabbix_server_ip }}
+Hostname={{ inventory_hostname }}
+EnableRemoteCommands=1
+LogFile=/var/log/zabbix/zabbix_agentd.log
+PidFile=/run/zabbix/zabbix_agentd.pid
+Include=/etc/zabbix/zabbix_agentd.d/*.conf
