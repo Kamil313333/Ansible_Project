@@ -58,7 +58,6 @@ The goal of this project is to build an **automated server provisioning and moni
 
 📸 Example Screenshots
 
-Add these to the docs/ folder and embed them here later:
 
 <img width="340" height="268" alt="image" src="https://github.com/user-attachments/assets/b5c4ac66-7c3d-4856-bbad-9b2f53a4f221" />
 
