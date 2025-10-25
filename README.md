@@ -41,7 +41,7 @@ ensures the agent runs automatically.
 4. Validation:
 Connectivity and agent status can be tested via:
 
-ansible-playbook playbooks/ping.yml
+`ansible-playbook playbooks/ping.yml`
 
 🧠 Technologies Used
 | Tool              | Purpose                      |
@@ -64,27 +64,6 @@ Add these to the docs/ folder and embed them here later:
 
 🖼️ Terminal output from Ansible playbook
 
-🛠️ How to Run Locally
-
-Clone the repository:
-
-git clone https://github.com/Kamil313333/Centralized-web-server-with-automatic-VM-provisioning.git
-cd Centralized-web-server-with-automatic-VM-provisioning
-
-
-Configure your variables in:
-
-group_vars/all.yml
-
-
-Create and test VM:
-
-ansible-playbook playbooks/new_machine.yml
-
-
-Install Zabbix Agent:
-
-ansible-playbook playbooks/zabbix_agent.yml
 
 🔮 Future Improvements
 
